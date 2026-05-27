@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "Publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "Projects",
           description: "A collection of things I&#39;ve built.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -394,6 +394,16 @@ ninja.data = [{
           description: "Chrome extension that automatically fills out UML JobHawk timesheet entries, eliminating repetitive manual input.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
+            },},{id: "projects-github-profile",
+          title: 'GitHub Profile',
+          description: "Explore my repositories, contributions, and open-source work on GitHub.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project.html";
+            },},{id: "projects-linkedin-profile",
+          title: 'LinkedIn Profile',
+          description: "Connect with me and view my professional experience and updates on LinkedIn.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project.html";
             },},{id: "teachings-discrete-mathematics-ii",
           title: 'Discrete Mathematics II',
           description: "This lecture covers fundamental notions and results in discrete and computational geometry.",
