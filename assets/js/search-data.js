@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-publications",
-          title: "Publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -394,16 +387,6 @@ ninja.data = [{
           description: "Chrome extension that automatically fills out UML JobHawk timesheet entries, eliminating repetitive manual input.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
-            },},{id: "projects-github-profile",
-          title: 'GitHub Profile',
-          description: "Explore my repositories, contributions, and open-source work on GitHub.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
-            },},{id: "projects-linkedin-profile",
-          title: 'LinkedIn Profile',
-          description: "Connect with me and view my professional experience and updates on LinkedIn.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
             },},{id: "teachings-discrete-mathematics-ii",
           title: 'Discrete Mathematics II',
           description: "This lecture covers fundamental notions and results in discrete and computational geometry.",
@@ -424,32 +407,11 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/gabriel-shahrouzi-902134197", "_blank");
         },
       },{
-        id: 'social-dblp',
-        title: 'DBLP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://dblp.uni-trier.de/pid/407/8014.html", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=MzAt3pwAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0009-0004-2858-7322", "_blank");
-        },
-      },{
-        id: 'social-arxiv',
-        title: 'arXiv',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://arxiv.org/a/shahrouzi_g_1.html", "_blank");
         },
       },{
       id: 'light-theme',
