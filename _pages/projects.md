@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of things I've built.
 nav: true
 nav_order: 2
-display_categories: [web app, chrome extension, profile]
+display_categories: [web app, chrome extension]
 horizontal: true
 ---
 
