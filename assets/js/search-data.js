@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "A collection of things I&#39;ve built.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -362,57 +369,51 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-opportunity-finder",
+          title: 'Opportunity Finder',
+          description: "Aggregates and filters job and internship opportunities from multiple sources into one clean feed.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-leetcode-trainer",
+          title: 'LeetCode Trainer',
+          description: "Platform for practicing algorithm and data structure problems with personalized recommendations and progress tracking.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-uml-signal",
+          title: 'UML Signal',
+          description: "High-signal opportunity aggregator for UMass Lowell students — jobs, events, deadlines, and more, all in one place.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-uml-job-autofill",
+          title: 'UML Job Autofill',
+          description: "Chrome extension that auto-fills UML JobHawk application forms, cutting application time from ~3 minutes to ~10 seconds.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-jobhawk-auto-timesheet",
+          title: 'JobHawk Auto Timesheet',
+          description: "Chrome extension that automatically fills out UML JobHawk timesheet entries, eliminating repetitive manual input.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project.html";
             },},{id: "teachings-discrete-mathematics-ii",
           title: 'Discrete Mathematics II',
           description: "This lecture covers fundamental notions and results in discrete and computational geometry.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/discrete-mathematics-2.html";
             },},{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/gabrielshahrouzi", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/gabriel-shahrouzi-902134197", "_blank");
+        },
+      },{
         id: 'social-dblp',
         title: 'DBLP',
         section: 'Socials',
