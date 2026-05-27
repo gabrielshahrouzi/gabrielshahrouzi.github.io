@@ -4,9 +4,9 @@ title: Projects
 permalink: /projects/
 description: A collection of things I've built.
 nav: true
-nav_order: 3
-display_categories: [web app, chrome extension]
-horizontal: false
+nav_order: 2
+display_categories: [web app, chrome extension, profile]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
@@ -20,7 +20,7 @@ horizontal: false
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   {% if page.horizontal %}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
@@ -38,7 +38,7 @@ horizontal: false
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% if page.horizontal %}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
